@@ -345,6 +345,10 @@ footer {
 }
 }
 
+@media (max-width: 1000px) {
+    
+}
+
 @media (max-width: 640px) {
     .hero-inner {
         padding: 0px 25px;
@@ -404,6 +408,7 @@ footer {
 
     #mobile-menu-logo {
         width: 150px;
+        display: block;
     }
 
     .hero-text {
