@@ -75,11 +75,11 @@ li {
     font-weight: 400;
 }
 
-#mobile-menu-logo{
+#mobile-menu-logo {
     display: none;
 }
 
-.mobile-menu-top{
+.mobile-menu-top {
     display: none;
 }
 
@@ -114,7 +114,7 @@ li {
     width: 65%;
 }
 
-.sect1-img img{
+.sect1-img img {
     width: 100%;
 }
 
@@ -126,7 +126,7 @@ li {
     position: absolute;
     width: 38%;
     top: 115%;
-    right: 9% ;
+    right: 9%;
     background-color: white;
     z-index: 5;
     padding-top: 20px;
@@ -140,7 +140,7 @@ li {
     font-weight: 300;
 }
 
-.sect1-text1 p{
+.sect1-text1 p {
     color: hsl(0, 0%, 50%);
     line-height: 2;
 }
@@ -299,6 +299,10 @@ footer {
     cursor: pointer;
 }
 
+.right p {
+    color: hsl(0, 0%, 50%);
+}
+
 .left {
     display: flex;
     flex-direction: column;
@@ -321,32 +325,75 @@ footer {
     .sect1 {
         width: 77%;
     }
-    .sect1-text1{
+
+    .sect1-text1 {
         width: 36%;
         top: 98%;
         right: 11%;
         padding-top: 20px;
         padding-left: 50px;
     }
-    
+
     .sect1-text1 h2 {
         font-size: 40px;
     }
 
-    .sect1-img{
+    .sect1-img {
         width: 70%;
     }
 
-    .sect1-img img{
+    .sect1-img img {
         width: 100%;
     }
+
     .grid-element {
-    font-size: 26px;
-}
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 1000px) {
-    
+    .hero-inner {
+        padding: 30px 100px;
+    }
+
+    .hero-text p {
+        font-size: 60px;
+    }
+
+    .sect1 {
+        width: 80%;
+    }
+
+    .sect2 {
+        padding: 0px 100px;
+        font-size: 22px;
+        padding-bottom: 150px;
+    }
+
+    .sect1-text1 {
+        top: 113%;
+        right: 10%;
+    }
+
+    .grid-element {
+        font-size: 20px;
+    }
+
+    .sect2 h2 {
+        font-size: 36px;
+    }
+
+    .sect1-text1 h2 {
+        font-size: 36px;
+    }
+
+    .sect1-text1 p {
+        font-size: 14px
+    }
+
+    footer {
+        padding: 20px 100px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -412,15 +459,14 @@ footer {
     }
 
     .hero-text {
-        font-size: 42px;
         width: auto;
-        margin-top: 150px;
+        margin-top: 50%;
     }
 
     .hero-text p {
         padding: 20px;
         text-align: justify;
-        width: 50%;
+        font-size: 40px;
     }
 
     .sect1 {
